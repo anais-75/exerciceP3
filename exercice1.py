@@ -10,9 +10,10 @@ print (n)
 
 monAge = 20 
 prenom  = "yasmian"
-presentation = "je suis dahmani et j'ai 20 ans,je rêve!"
+
+presentation = "je suis " +prenom+ " et j'ai " +monAge+ " "
 print (presentation)
-monAge = 20
+
 
 
 #3 - Refaire l'exercice précédent, mais cette fois déclarer les 2 premières variables sur une seule ligne
@@ -22,8 +23,8 @@ print(MonAge, prenom)
 
 #4 - Déclarer une variable et lui attribuer un nombre. Afficher le résultat de la multiplication de cette variable par 4
 
-var = 5
-print(var*5)
+var = 4
+print(var*4)
 
 #5 - Déclarer une variable et lui attribuer un nombre. trouver ensuite 2 syntaxes différentes pour ajouter "1" à ce nombre. Afficher ce nombre à chaque fois que vous ajoutez "1".
 

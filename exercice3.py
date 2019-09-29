@@ -2,7 +2,7 @@
 # coding: utf-8 
 #1 - créez une boucle for qui affiche les numéros de 0 à 5
 
-for i in range(0,5):
+for i in range(0,6):
 	print ("i a pour valeur", i)
 
 #2 - créez une liste de 3 mots. Parcourez la liste a l'aide d'une boucle "for" et pour chaque mot afficher le nombre de caractère du mot et le mot en question
@@ -58,6 +58,7 @@ print("la somme b vaut", b)
 
 
 print(sorted(range(0,5), reverse=True))
+
 	
 #7 - Grâce à la fonction range(1, 10), afficher tous les nombres de 1 à 3. La boucle doit s'arrêter une fois que le chiffre 3 est affiché.
 
@@ -69,10 +70,10 @@ for i in range(0, 10):
 
 
 #8 - Refaire le même exercice que le précédent, mais cette fois variabiliser tous les nombres. ???????
-
-x = range(0, 10)
+a, b, c = 0, 10, 3
+x = range(a, b)
 for i in x:
-	if i > 3:
+	if i > c:
 		break
 	print(i) 
  
@@ -99,12 +100,12 @@ while i < len(ordi):
 
 #11 - Grâce à une boule while et a la fonction input(), demandez à l'utilisateur de saisir du texte, et quitter lorsqu'il écrit le mot "exit"
 
-x = 0
+
 while True:
      x = input("je saisi du text au clavier:")
      if x == "exit":
              break
-     x += x
+
 
 
 #12 - Grâce à une boucle while, afficher les nombres de 0 à 100 de 5 en 5
